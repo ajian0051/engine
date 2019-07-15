@@ -387,7 +387,8 @@ deps = {
   'src/third_party/pkg/when':
    Var('dart_git') + '/when.git' + '@' + '0.2.0',
 
-   'src/third_party/android_tools/ndk': {
+   #'src/third_party/android_tools/ndk': {
+   'src/test_third_party/android_tools/ndk': {
      'packages': [
        {
         'package': 'flutter/android/ndk/${{platform}}',
